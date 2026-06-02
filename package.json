@@ -1,0 +1,25 @@
+{
+  "name": "fexsa-website",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://atsdev15.github.io/Fexsa-website",
+  "description": "FEXSA Inspection & Audit Services LLC - Professional website for independent quality and inspection services",
+  "scripts": {
+    "dev": "vite",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "gh-pages": "^6.3.0",
+    "vite": "^6.0.5"
+  }
+}
