@@ -24,11 +24,7 @@ const ndtMethods = [
     title: 'Visual Testing',
     desc: 'External and internal examination by certified inspectors — the foundation of every inspection program, covering dimensional and surface checks.',
   },
-  {
-    code: 'AT',
-    title: 'Acoustic Emission Testing',
-    desc: 'Real-time detection of active defects in pressure vessels, storage tanks, and pipelines under operational or proof-test loads.',
-  },
+
 ];
 
 const NDTMethods = () => {

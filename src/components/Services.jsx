@@ -48,20 +48,7 @@ const services = [
     tags: ['Continuous Monitoring', 'Acoustic Emission', 'Online Dashboard'],
     desc: 'Advanced remote inspection and structural health monitoring solutions for infrastructure and industrial components. Utilizing acoustic emission technology with real-time data transmission (GSM) and trend analysis, we provide continuous oversight of critical assets — enabling predictive maintenance and early failure detection without the need for on-site personnel.',
   },
-  {
-    id: 'damage-analysis',
-    icon: '🔍',
-    title: 'Damage Analysis & Failure Investigation',
-    tags: ['Root Cause Analysis', 'NDT Investigation', 'Forensic Engineering'],
-    desc: 'Comprehensive damage analysis and failure investigation services to determine the root causes of material defects, structural failures, and equipment malfunctions. Our team uses advanced NDT methods and metallurgical techniques to assess damage, evaluate repair effectiveness, and provide actionable recommendations to prevent recurrence.',
-  },
-  {
-    id: 'plant-safety',
-    icon: '🏭',
-    title: 'Plant Safety & Risk Assessment',
-    tags: ['QRA', 'Steam Boiler', 'PED Compliance'],
-    desc: 'Quantitative Risk Assessment (QRA) and plant safety inspections for industrial facilities, steam boilers, pressure equipment, and processing plants. We evaluate operational risks, verify compliance with safety regulations, and recommend mitigation strategies to ensure the protection of personnel, assets, and the environment.',
-  },
+
 
 ];
 
