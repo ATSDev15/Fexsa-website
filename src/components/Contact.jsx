@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-const EMAILJS_SERVICE_ID = 'service_kfkojse';
-const EMAILJS_TEMPLATE_ID = 'template_y376u63';
-const EMAILJS_PUBLIC_KEY = 'f1AEnGOz1Kikqir5a';
+const EMAILJS_SERVICE_ID = 'service_sa7q7th';
+const EMAILJS_TEMPLATE_ID = 'template_xjfxuf9';
+const EMAILJS_PUBLIC_KEY = 'vhfCksviTW37yzTm7';
 
 const Contact = () => {
   const [form, setForm] = useState({
@@ -58,7 +58,7 @@ const Contact = () => {
           reply_to: form.email,
           mobile: form.mobile || 'Not provided',
           message: form.details,
-          to_email: 'shadysamir337@gmail.com',
+          to_email: 'info@fexsa.net',
         },
         EMAILJS_PUBLIC_KEY
       );

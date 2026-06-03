@@ -79,7 +79,7 @@ fexsa-website/
 
 ## 📋 Contact Form Configuration
 
-The contact form sends submissions to **shadysamir335@gmail.com** (test email).
+The contact form sends submissions to **info@fexsa.net** (test email).
 
 ### Option A — EmailJS (Recommended)
 
@@ -147,7 +147,7 @@ const handleSubmit = async (e) => {
         email: form.email,
         phone: form.mobile,
         message: form.details,
-        to: 'shadysamir335@gmail.com',
+        to: 'info@fexsa.net',
       }),
     });
     const data = await res.json();
@@ -161,7 +161,7 @@ const handleSubmit = async (e) => {
 
 ### Fallback — `mailto:` Link
 
-If no backend is configured, the form falls back to opening the user's default email client with pre-filled content addressed to `shadysamir335@gmail.com`. For production, update the fallback to `info@fexsa.net`.
+If no backend is configured, the form falls back to opening the user's default email client with pre-filled content addressed to `info@fexsa.net`. For production, update the fallback to `info@fexsa.net`.
 
 ---
 
@@ -239,7 +239,7 @@ npm run deploy
 | Sectors          | `#sectors`   | 8 industry sectors                         |
 | Popular Solutions| —            | 6 quick-access links                       |
 | Why FEXSA        | —            | 6 differentiators                          |
-| Contact          | `#contact`   | Info panel + form → shadysamir335@gmail.com |
+| Contact          | `#contact`   | Info panel + form → info@fexsa.net |
 | Footer           | —            | Logo, links, copyright                     |
 
 ---
@@ -282,9 +282,9 @@ Edit the `sectors` array in `src/components/Sectors.jsx`.
 
 ## 📧 Production Email
 
-For the live site, update the test email (`shadysamir335@gmail.com`) to the production email (`info@fexsa.net`) in `src/components/Contact.jsx`:
+For the live site, update the test email (`info@fexsa.net`) to the production email (`info@fexsa.net`) in `src/components/Contact.jsx`:
 
-1. In the `handleSubmit` function, replace `'shadysamir337@gmail.com'` with `'info@fexsa.net'`
+1. In the `handleSubmit` function, replace `'info@fexsa.net'` with `'info@fexsa.net'`
 2. In the mailto fallback, update the email address
 
 ---
