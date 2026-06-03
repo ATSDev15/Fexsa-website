@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://atsdev15.github.io/Fexsa-website",
+  "homepage": "https://fexsa.net",
   "description": "FEXSA Inspection & Audit Services LLC - Professional website for independent quality and inspection services",
   "scripts": {
     "dev": "vite",
