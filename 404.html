@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/fexsa-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0D1B5E" />
+    <title>Page Not Found | FEXSA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #0D1B5E;
+        --light-bg: #f4f6fb;
+        --text-dark: #1a1a1a;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Barlow', sans-serif;
+        background-color: var(--light-bg);
+        color: var(--text-dark);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        text-align: center;
+      }
+      .container {
+        max-width: 650px;
+        padding: 3rem 2rem;
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 20px 40px rgba(13, 27, 94, 0.08);
+        animation: slideUp 0.6s ease-out forwards;
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      .logo {
+        width: 80px;
+        height: auto;
+        margin-bottom: 1.5rem;
+      }
+      .error-code {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size: 8rem;
+        font-weight: 800;
+        color: var(--primary-blue);
+        margin: 0;
+        line-height: 1;
+        letter-spacing: -2px;
+      }
+      .error-message {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 1rem 0;
+        color: var(--text-dark);
+      }
+      .error-desc {
+        font-size: 1.1rem;
+        color: #666;
+        margin-bottom: 2.5rem;
+        line-height: 1.6;
+      }
+      .home-button {
+        display: inline-block;
+        background-color: var(--primary-blue);
+        color: #ffffff;
+        text-decoration: none;
+        padding: 14px 32px;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 1.1rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(13, 27, 94, 0.2);
+      }
+      .home-button:hover {
+        background-color: #15267a;
+        transform: translateY(-3px);
+        box-shadow: 0 8px 25px rgba(13, 27, 94, 0.3);
+      }
+      @keyframes slideUp {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="/fexsa-icon.png" alt="FEXSA Logo" class="logo" onerror="this.style.display='none'" />
+      <h1 class="error-code">404</h1>
+      <h2 class="error-message">Page Not Found</h2>
+      <p class="error-desc">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+      <a href="/" class="home-button">Return to Homepage</a>
+    </div>
+  </body>
+</html>
